@@ -1,0 +1,212 @@
+h1 {
+  margin-top: 0px;
+  margin-bottom: 16rem;
+  font-size: 48rem;
+  line-height: 110%;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.intro-wrapper p,
+.intro-wrapper ul {
+}
+
+.hide-element {
+  opacity: 0;
+  position: absolute !important;
+  height: 0px !important;
+  pointer-events: none !important;
+}
+
+.form-row:last-child {
+  display: none !important;
+}
+
+form {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 32rem;
+  grid-row-gap: 56rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#mpr-product-inputs .form-group {
+  text-align: left !important;
+  display: block !important;
+  padding: 0px !important;
+}
+
+.css-b62m3t-container {
+}
+
+.css-1d8n9bt {
+  padding: 0px !important;
+}
+
+.css-1s2u09g-control {
+  border-top-width: 0px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+  border-bottom-color: black !important;
+  height: 43rem !important;
+  border-radius: 0rem !important;
+  font-size: 20rem !important;
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+}
+
+.mpr-label-content {
+  display: none !important;
+}
+
+.css-ackcql,
+.css-qc6sy-singleValue {
+  padding: 0px !important;
+}
+
+#mpr-product-inputs .form-group input,
+input,
+.mpr-product-search__control {
+  font-size: 20rem !important;
+  text-align: left !important;
+  border-radius: 0rem !important;
+  border-top-width: 0rem !important;
+  border-left-width: 0rem !important;
+  border-right-width: 0rem !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: black !important;
+  height: 43rem !important;
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+  position: relative !important;
+}
+
+.mpr-input-label {
+  margin: 0px !important;
+}
+
+.mpr-sn-listing {
+  margin: 0px !important;
+  padding-left: 0px !important;
+}
+
+.mpr-serial-number-entry {
+  justify-content: flex-start !important;
+  margin-top: 8rem !important;
+}
+
+.react-datepicker {
+  font-size: 12rem !important;
+  width: 100% !important;
+}
+
+.react-datepicker__month-container {
+  width: 100% !important;
+}
+
+.react-datepicker__tab-loop {
+  position: relative !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  font-size: 12rem !important;
+  width: calc(100% / 7) !important;
+  height: 12rem !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 12rem !important;
+}
+
+.react-datepicker-popper {
+  width: 100% !important;
+}
+
+.mpr-input-type-tickbox {
+  grid-column-start: span 2;
+  grid-column-end: span 2;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+
+.mpr-product-search__input {
+  font-size: 20rem;
+}
+
+.mpr-input-required {
+  font-size: 1em !important;
+}
+
+.mpr-custom-label {
+  display: none !important;
+}
+
+.btn-primary {
+  height: 48rem !important;
+  padding-top: 14rem !important;
+  padding-right: 24rem !important;
+  padding-bottom: 14rem !important;
+  padding-left: 24rem !important;
+  border-top-style: solid !important;
+  border-top-width: 1px !important;
+  border-top-color: #ffab5c !important;
+  border-right-style: solid !important;
+  border-right-width: 1px !important;
+  border-right-color: #ffab5c !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: #ffab5c !important;
+  border-left-style: solid !important;
+  border-left-width: 1px !important;
+  border-left-color: #ffab5c !important;
+  border-top-left-radius: 100rem !important;
+  border-top-right-radius: 100rem !important;
+  border-bottom-left-radius: 100rem !important;
+  border-bottom-right-radius: 100rem !important;
+  background-color: transparent !important;
+  transition-property: all !important;
+  transition-duration: 200ms !important;
+  transition-timing-function: ease !important;
+  color: #ffab5c !important;
+  font-size: 16rem !important;
+  line-height: 100% !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  width: auto !important;
+  margin-left: auto !important;
+}
+
+.btn--16:hover {
+  background-color: #ffab5c !important;
+  color: white !important;
+}
+
+.mpr-input-tickbox .mpr-label-content,
+.mpr-input-tickbox .mpr-custom-label {
+  font-size: 16rem !important;
+  display: flex !important;
+}
+
+.form-row:nth-child(12) {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  h1 {
+    font-size: 28rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 26rem;
+  }
+  form {
+    grid-row-gap: 32rem;
+    grid-template-columns: 1fr;
+  }
+}

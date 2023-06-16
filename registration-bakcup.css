@@ -1,0 +1,22 @@
+#product-registration {
+  width: 80%;
+  margin: 1rem auto;
+}
+#product-registration h1 {
+  margin: 1rem 0;
+}
+#mpr-product-inputs .form-group.mpr-class-_extraTAndC {
+  padding: 1rem 0;
+}
+.mpr-input-label input[type="checkbox"] {
+  padding: 0.5rem 1rem !important;
+  margin-right: 1rem;
+  border: 4px solid black !important;
+}
+#mpr-product-inputs .form-group.mpr-class-_extraTAndC input[type="checkbox"] {
+  width: 40px !important;
+}
+#mpr-product-inputs .form-group.mpr-class-_extraTAndC .mpr-label-content,
+#mpr-product-inputs .form-group.mpr-class-_extraTAndC .mpr-input-label {
+  display: flex;
+}
